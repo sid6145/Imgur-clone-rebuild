@@ -1,0 +1,60 @@
+.navbar {
+  padding-bottom: 30px;
+  background-color: rgb(215, 220, 223);
+}
+
+.logo {
+  width: 100px;
+}
+
+.upload-btn {
+  text-align: center;
+  height: 35px;
+  display: inline-block;
+  padding: 7px 14px 10px 9px;
+  text-transform: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  width: auto;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+  white-space: nowrap;
+  border: none;
+}
+
+.upload-btn:hover {
+  background-color: #41cc8b;
+}
+
+.search-bar {
+  background: hsla(0, 0%, 100%, 0.25);
+  border: 1px solid rgb(182, 178, 178);
+  padding: 8px 35px 8px 10px;
+  border-radius: 3px;
+  width: 100%;
+  outline: 0 none;
+  opacity: 0.8;
+  min-height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: black;
+  text-shadow: inherit;
+  -webkit-text-fill-color: inherit;
+
+}
+
+.submit{
+    border: none;
+    z-index: 1;
+}
+
+.signin{
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    background-color:rgb(215, 220, 223) ;
+}
