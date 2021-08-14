@@ -69,7 +69,7 @@ function Header() {
 
     //Image Upload Modal
       
-      <Modal show={show} onHide={handleClose}>
+      <Modal className="modal" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Select image to upload</Modal.Title>
         </Modal.Header>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { db } from "../../firebase-config";
+import ImageCard from "../ImageCards";
 import "./style.css";
 
 function ImageContainer() {
@@ -22,12 +23,13 @@ function ImageContainer() {
 
   console.log(imageList)
   return <div className="img-container">
-
-      {
+    
+    {
       imageList.map((item) => (
-        <img width="250px" height="250px" src={item.url} />
+        <ImageCard imgUrl={item.url}/>
       ))
-      }
+    }
+  
   </div>;
 }
 
